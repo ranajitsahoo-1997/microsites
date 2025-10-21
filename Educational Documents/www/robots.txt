@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://www.educational-documents-authentication.com/sitemap.xml

@@ -1,0 +1,14 @@
+runtime: python39
+
+# service: wcs-html-responsive
+
+service: wcs-html-ea-postille
+
+handlers:
+- url: /
+  static_files: www/index.html
+  upload: www/index.html
+
+- url: /(.*)
+  static_files: www/\1
+  upload: www/(.*)
