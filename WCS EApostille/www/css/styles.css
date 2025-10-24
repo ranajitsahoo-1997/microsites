@@ -5842,6 +5842,14 @@ body:not(.device-mobile-optimized) .EwS2PT {
   object-fit: cover;
   object-position: center;
 }
+.f-h-underline {
+  width: 20px;
+  height: 3px !important;
+  opacity: 1;
+  color: transparent;
+  background-color: #cb0230;
+  margin: 10px 0px 30px 0px;
+}
 
 .main-container {
   max-width: 980px;
@@ -5851,11 +5859,22 @@ body:not(.device-mobile-optimized) .EwS2PT {
   max-width: 980px;
   margin: 0px auto;
 }
-.row-items {
+
+.nav-image {
   display: flex;
   flex-direction: row;
   justify-content: start;
   align-items: center;
+}
+.nav-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.n-logo-header-text{
+  font-weight: 900;
+  padding-left: 17px;
 }
 
 .h-span-1 {
@@ -6042,12 +6061,22 @@ body:hover::-webkit-scrollbar-thumb:hover {
     margin: 0px auto;
     text-align: center;
   }
-  .row-items {
+  .nav-image {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
+  .nav-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .n-logo-header-text{
+  font-weight: 900;
+  padding-left: 0px;
+}
   #comp-lzwnwry0 {
     margin: 5px auto;
   }
@@ -6532,7 +6561,7 @@ accordion-section {
   }
 }
 
-@media only screen and (min-width: 631px) and (max-width: 767px) {
+@media only screen and (min-width: 631px) and (max-width: 768px) {
   .footer-row {
     margin-top: 20px;
     margin-left: 0;
@@ -6773,12 +6802,22 @@ accordion-section {
     margin: 0px auto;
     text-align: center;
   }
-  .row-items {
+  .nav-image {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
+  .nav-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .n-logo-header-text{
+  font-weight: 900;
+  padding-left: 0px;
+}
   #comp-lzwnwry0 {
     margin: 0px auto;
   }
@@ -7070,7 +7109,6 @@ accordion-section {
 
   .footer-span-text2 {
     margin-bottom: 10px;
-    position: fixed;
   }
 
   ul.footer-menu li::before {
@@ -7208,7 +7246,7 @@ accordion-section {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1010px) {
+@media only screen and (min-width: 769px) and (max-width: 1010px) {
   .main-container {
     max-width: 95%;
     margin-top: 15px;
@@ -7219,6 +7257,10 @@ accordion-section {
     max-width: 95%;
     margin: 0px auto;
   }
+  .n-logo-header-text{
+  font-weight: 900;
+  padding-left: 0px;
+}
   .row-items {
     display: flex;
     flex-direction: row;
@@ -7792,6 +7834,18 @@ accordion-section {
 
 
 @media only screen and (min-width: 1271px) and (max-width: 1450px) {
+  .nav-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+  .nav-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
   .h-span-1 {
     font-size: 52px;
     letter-spacing: 0rem;
@@ -7954,6 +8008,18 @@ accordion-section {
 
 
 @media only screen and (min-width: 1451px) and (max-width: 1597px) {
+  .nav-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+  .nav-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
   .h-span-1 {
     font-size: 52px;
     letter-spacing: 0rem;
@@ -8118,7 +8184,19 @@ accordion-section {
 
 
 @media only screen and (min-width: 1598px) and (max-width: 4000px) {
-    /* heading */
+  .nav-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+  .nav-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+  /* heading */
   .h-span-1 {
     font-size: 52px;
     letter-spacing: 0rem;
