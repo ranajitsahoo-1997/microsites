@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://www.translationsserviceusa.com/sitemap.xml
+Sitemap: https://www.translationsserviceusa.com/sitemap.xml

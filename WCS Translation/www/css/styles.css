@@ -5524,6 +5524,14 @@ body:not(.device-mobile-optimized) .EwS2PT {
     object-fit: cover;
     object-position: center;
 }
+.f-h-underline {
+  width: 20px;
+  height: 3px !important;
+  opacity: 1;
+  color: transparent;
+  background-color: #cb0230;
+  margin: 10px 0px 30px 0px;
+}
 
 .main-container {
     max-width: 980px;
@@ -5532,13 +5540,24 @@ body:not(.device-mobile-optimized) .EwS2PT {
 .nav-header{
     max-width: 980px;
     margin:0px auto;
+    padding: 10px;
     
 }
-.row-items{
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
+.nav-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.nav-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.n-logo-header-text{
+  font-weight: 900;
+  padding-left: 17px;
 }
 
 .h-span-1 {
@@ -5773,6 +5792,22 @@ body:hover::-webkit-scrollbar-thumb:hover {
         text-align: center;
         
     }
+    .nav-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .n-logo-header-text{
+  font-weight: 900;
+  padding-left: 0px;
+}
     .row-items{
         display: flex;
         flex-direction: row;
@@ -6324,7 +6359,7 @@ body:hover::-webkit-scrollbar-thumb:hover {
     }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 630px) {
+@media only screen and (min-width: 481px) and (max-width: 630px) {
 
     .main-container {
         max-width: 95%;
@@ -6340,12 +6375,22 @@ body:hover::-webkit-scrollbar-thumb:hover {
         text-align: center;
         
     }
-    .row-items{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
+    .nav-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .n-logo-header-text{
+  font-weight: 900;
+  padding-left: 0px;
+}
     #comp-lzwnwry0{
         margin: 0px auto;
     }
@@ -6552,7 +6597,6 @@ body:hover::-webkit-scrollbar-thumb:hover {
 
     .footer-span-text2 {
         margin-bottom: 10px;
-        position: fixed;
     }
 
     ul.footer-menu li::before {
@@ -6688,7 +6732,7 @@ body:hover::-webkit-scrollbar-thumb:hover {
 
 
 
-@media only screen and (min-width: 768px) and (max-width: 1010px) {
+@media only screen and (min-width: 769px) and (max-width: 1010px) {
     .main-container {
         max-width: 95%;
         margin-top: 15px;
@@ -6700,6 +6744,10 @@ body:hover::-webkit-scrollbar-thumb:hover {
         margin:0px auto;
         
     }
+    .n-logo-header-text{
+  font-weight: 900;
+  padding-left: 0px;
+}
     .row-items{
         display: flex;
         flex-direction: row;
@@ -7023,6 +7071,18 @@ body:hover::-webkit-scrollbar-thumb:hover {
 }
 
 @media only screen and (min-width: 1271px) and (max-width: 1450px) {
+    .nav-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+  .nav-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
     .h-span-1 {
         font-size:52px;
         letter-spacing: 0rem;
@@ -7057,6 +7117,18 @@ body:hover::-webkit-scrollbar-thumb:hover {
 }
 
 @media only screen and (min-width: 1451px) and (max-width: 1597px) {
+    .nav-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+  .nav-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
     .h-span-1 {
         font-size:52px;
         letter-spacing: 0rem;
