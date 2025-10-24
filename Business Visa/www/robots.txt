@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://www.businesstravelvisa.com/sitemap.xml
+Sitemap: https://www.businesstravelvisa.com/sitemap.xml
