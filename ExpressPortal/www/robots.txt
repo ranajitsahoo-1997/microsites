@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://www.wcs-express.com/sitemap.xml
+Sitemap: https://www.wcs-express.com/sitemap.xml

@@ -7,14 +7,11 @@
     <meta name="generator" content="Website Builder" />
     <link
       rel="icon"
-      sizes="32x32"
+      sizes="192x192"
       href="images/favicon2.png"
       type="image/png"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap"
-      rel="stylesheet"
-    />
+    
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
       rel="stylesheet"
@@ -23,81 +20,16 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Lato:wght@500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
-
-    <!-- Original trials -->
-
-    <!-- Legacy Polyfills -->
-    <script src="https://browser.sentry-cdn.com/6.18.2/bundle.min.js"></script>
-    <script
-      nomodule=""
-      src="https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js"
-    ></script>
-    <script
-      nomodule=""
-      src="https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js"
-    ></script>
-
-    <script
-      nomodule=""
-      src="https://polyfill-fastly.io/v3/polyfill.min.js?features=fetch"
-    ></script>
-
-    <!-- Performance API Polyfills -->
-    <script>
-      (function () {
-        var noop = function noop() {};
-        if ("performance" in window === false) {
-          window.performance = {};
-        }
-        window.performance.mark = performance.mark || noop;
-        window.performance.measure = performance.measure || noop;
-        if ("now" in window.performance === false) {
-          var nowOffset = Date.now();
-          if (performance.timing && performance.timing.navigationStart) {
-            nowOffset = performance.timing.navigationStart;
-          }
-          window.performance.now = function now() {
-            return Date.now() - nowOffset;
-          };
-        }
-      })();
-    </script>
-
-    <!-- Globals Definitions -->
-    <script>
-      (function () {
-        var now = Date.now();
-        window.initialTimestamps = {
-          initialTimestamp: now,
-          initialRequestTimestamp: Math.round(
-            performance.timeOrigin
-              ? performance.timeOrigin
-              : now - performance.now()
-          ),
-        };
-
-        window.thunderboltTag = "libs-releases-GA-local";
-        window.thunderboltVersion = "1.14501.0";
-      })();
-    </script>
-
-    <!-- sendFedopsLoadStarted.inline -->
-
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-
+   
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap"
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="./cssbootstrap/bootstrap.min.css" />
+    <script src="./js/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./cssfontawesome/all.min.css" />
 
     <!-- Original trials -->
 
@@ -111,9 +43,9 @@
 
         "alternateName": "WCS",
 
-        "url": "https://wcss.com",
+        "url": "https://www.wcs-express.com/",
 
-        "logo": "https://wcss.com/wp-content/uploads/2020/09/wcss-logo-red-1.png",
+        "logo": "https://www.wcs-express.com/www/images/logo-red.png",
 
         "contactPoint": {
           "@type": "ContactPoint",
@@ -130,7 +62,7 @@
         "sameAs": [
           "https://www.instagram.com/wcsexpress/",
 
-          "https://www.linkedin.com/company/unavailable/",
+          "https://www.linkedin.com/company/wcsexpress/",
 
           "https://x.com/WCSExpress"
         ]
@@ -147,27 +79,27 @@
 
     <title>Apostille & Document Legalization Services | WCS Express</title>
     <!-- prevent duplicate content problem -->
-    <link rel="canonical" href="http://www.wcs-express.com/" />
+    <link rel="canonical" href="https://www.wcs-express.com/" />
 
     <!-- og meta data is required when we tried to share this page in social media like facebook, whatsapp and so on. -->
     <meta
-      name="og:title"
+      property="og:title"
       content="Digital Platform For Document Legalization"
     />
     <meta
-      name="og:description"
+      property="og:description"
       content="Fast, secure apostille and document legalization services. WCS Express handles embassy, translation, and visa authentication with trusted expertise."
     />
     <meta
-      name="og:image"
-      content="http://www.educational-documents-authentication.com/www/images/logo.png"
+      property="og:image"
+      content="https://www.educational-documents-authentication.com/www/images/logo.png"
     />
-    <meta name="og:image:width" content="1200" />
-    <meta name="og:image:height" content="630" />
-    <meta name="og:type" content="website" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:type" content="website" />
     <meta
-      name="og:url"
-      content="http://www.educational-documents-authentication.com/"
+      property="og:url"
+      content="https://www.educational-documents-authentication.com/"
     />
 
     <!-- while sharing with twitter -->
@@ -182,7 +114,7 @@
     />
     <meta
       name="twitter:image"
-      content="http://www.educational-documents-authentication.com/images/logo.png"
+      content="https://www.educational-documents-authentication.com/images/logo.png"
     />
     <meta name="twitter:image:width" content="1200" />
     <meta name="twitter:image:height" content="630" />
@@ -193,8 +125,9 @@
     />
     <meta
       name="twitter:url"
-      content="http://www.educational-documents-authentication.com/"
+      content="https://www.educational-documents-authentication.com/"
     />
+    <meta name="robots" content="index, follow" />
 
     <meta name="title" content="Digital Platform For Document Legalization" />
     <meta
@@ -289,14 +222,14 @@
                     data-testid="inline-content"
                     class=""
                   >
-                    <div class="row">
+                    <div class="row d-flex">
                       <div
-                        id="comp-lzwlspnp"
-                        class="col-sm-3 row-items"
+                        id=""
+                        class="col-sm-3 nav-image"
                         title="wcss-logo-red-1.png"
                       >
                         <img
-                          src="images/logo.png"
+                          src="./images/logo.png"
                           alt="Washington Consular Services"
                           style="width: 109px; height: 71px; object-fit: cover"
                           width="109"
@@ -306,8 +239,8 @@
                         />
                       </div>
                       <div
-                        id="comp-lzwnwry0"
-                        class="col-sm-9 row-items"
+                        id=""
+                        class="col-sm-9 nav-text"
                         data-testid="richTextElement"
                       >
                         <h1 class="font_0" style="font-size: 27px">
@@ -319,7 +252,7 @@
                               "
                               class=""
                             >
-                              <span class="color_36" style="font-weight: 900">
+                              <span class="color_36 n-logo-header-text">
                                 Washington Consular Services
                               </span>
                             </span>
@@ -818,14 +751,7 @@
                               <h3 class="font_5 footer-h-text text-white">
                                 About WCS
                               </h3>
-                              <hr
-                                style="
-                                  width: 20px;
-                                  height: 2px;
-                                  background-color: #cb0230;
-                                  margin: 10px 0px 30px 0px;
-                                "
-                              />
+                              <hr class="f-h-underline" />
 
                               <small class="footer-small">
                                 <span class="footer-span-text2"
@@ -844,8 +770,7 @@
                                 target="_blank"
                               >
                                 <svg
-                                  class="social-icons"
-                                  xmlns="http://www.w3.org/2000/svg"
+                                  xmlns="https://www.w3.org/2000/svg"
                                   width="45px"
                                   height="45px"
                                   x="0px"
@@ -949,12 +874,11 @@
                                 </svg>
                               </a>
                               <a
-                                class="social-icons"
-                                href="https://www.linkedin.com/company/wcsexpres"
+                                href="https://www.linkedin.com/company/wcsexpress/"
                                 target="_blank"
                               >
                                 <svg
-                                  xmlns="http://www.w3.org/2000/svg"
+                                  xmlns="https://www.w3.org/2000/svg"
                                   x="0px"
                                   y="0px"
                                   width="45px"
@@ -980,12 +904,11 @@
                                 </svg>
                               </a>
                               <a
-                                class="social-icons"
                                 href="https://twitter.com/WCSExpress"
                                 target="_blank"
                               >
                                 <svg
-                                  xmlns="http://www.w3.org/2000/svg"
+                                  xmlns="https://www.w3.org/2000/svg"
                                   x="0px"
                                   y="0px"
                                   width="45px"
@@ -1034,14 +957,7 @@
                                   >Our Services</a
                                 >
                               </h3>
-                              <hr
-                                style="
-                                  width: 20px;
-                                  height: 2px;
-                                  background-color: #cb0230;
-                                  margin: 10px 0px 30px 0px;
-                                "
-                              />
+                              <hr class="f-h-underline" />
 
                               <div>
                                 <ul
@@ -1122,14 +1038,7 @@
                                   >Quick Links</a
                                 >
                               </h3>
-                              <hr
-                                style="
-                                  width: 20px;
-                                  height: 2px;
-                                  background-color: #cb0230;
-                                  margin: 10px 0px 30px 0px;
-                                "
-                              />
+                              <hr class="f-h-underline" />
 
                               <ul
                                 id="menu-footer-menuservices-1"
@@ -1201,14 +1110,7 @@
                                   >Our Affiliates</a
                                 >
                               </h3>
-                              <hr
-                                style="
-                                  width: 20px;
-                                  height: 2px;
-                                  background-color: #cb0230;
-                                  margin: 10px 0px 30px 0px;
-                                "
-                              />
+                              <hr class="f-h-underline" />
 
                               <div class="footer-img">
                                 <img
