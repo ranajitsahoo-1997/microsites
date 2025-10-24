@@ -6218,7 +6218,7 @@ body:hover::-webkit-scrollbar-thumb:hover {
 
 }
 
-@media only screen and (min-width: 631px) and (max-width: 767px) {
+@media only screen and (min-width: 631px) and (max-width: 768px) {
     .footer-row {
         margin-top: 20px;
         margin-left: 0;
