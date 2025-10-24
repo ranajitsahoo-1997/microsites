@@ -5849,6 +5849,7 @@ body:not(.device-mobile-optimized) .EwS2PT {
   margin: 0px auto;
   padding: 10px;
 }
+
 .nav-image {
   display: flex;
   flex-direction: row;
@@ -5861,7 +5862,10 @@ body:not(.device-mobile-optimized) .EwS2PT {
   justify-content: start;
   align-items: center;
 }
-
+.n-logo-header-text{
+  font-weight: 900;
+  padding-left: 17px;
+}
 .h-span-1 {
   font-size: 52px;
   letter-spacing: 0rem;
@@ -6382,6 +6386,10 @@ body:hover::-webkit-scrollbar-thumb:hover {
     justify-content: center;
     align-items: center;
   }
+  .n-logo-header-text{
+  font-weight: 900;
+  padding-left: 0px;
+}
   #comp-lzwnwry0 {
     margin: 5px auto;
   }
@@ -6859,7 +6867,7 @@ body:hover::-webkit-scrollbar-thumb:hover {
   }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 630px) {
+@media only screen and (min-width: 481px) and (max-width: 630px) {
   .main-container {
     max-width: 95%;
     height: fit-content;
@@ -6886,6 +6894,10 @@ body:hover::-webkit-scrollbar-thumb:hover {
     justify-content: center;
     align-items: center;
   }
+  .n-logo-header-text{
+  font-weight: 900;
+  padding-left: 0px;
+}
   #comp-lzwnwry0 {
     margin: 0px auto;
   }
@@ -7208,6 +7220,10 @@ body:hover::-webkit-scrollbar-thumb:hover {
     max-width: 95%;
     margin: 0px auto;
   }
+  .n-logo-header-text{
+  font-weight: 900;
+  padding-left: 0px;
+}
   .row-items {
     display: flex;
     flex-direction: row;
