@@ -6053,6 +6053,10 @@ body:hover::-webkit-scrollbar-thumb {
 body:hover::-webkit-scrollbar-thumb:hover {
   background: transparent;
 }
+.col-cont{
+  margin-left: 20px;
+  padding-left: 10px;
+}
 
 /* Responsive adjustments */
 

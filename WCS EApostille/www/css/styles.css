@@ -6043,7 +6043,10 @@ body:hover::-webkit-scrollbar-thumb {
 body:hover::-webkit-scrollbar-thumb:hover {
   background: transparent;
 }
-
+.col-cont{
+  margin-left: 10px;
+  padding-left: 5px;
+}
 
 
 /* Responsive adjustments */
@@ -6354,6 +6357,7 @@ accordion-section {
   .footer-col-3 {
     border-bottom: 1px solid white;
   }
+ 
 
   .footer-row {
     margin-top: 30px;
@@ -6362,7 +6366,7 @@ accordion-section {
   }
 
   ul.footer-menu li::before {
-    margin-left: 20px;
+    margin-left: 20px!important;
   }
 
   .service-col-2 {
@@ -6790,6 +6794,10 @@ accordion-section {
 }
 
 @media only screen and (min-width: 481px) and (max-width: 630px) {
+  .col-cont{
+  margin-left: 30px;
+  padding-left: 10px;
+}
   .main-container {
     height: fit-content;
     margin-top: 15px;
